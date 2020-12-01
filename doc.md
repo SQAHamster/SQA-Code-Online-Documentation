@@ -14,7 +14,7 @@
 - Welcher Ordner zu öffnen ist folgt
 ### Neues Projekt herunterladen (clonen)
 - Im [Ordner öffnen Dialog](#Ordner-öffnen) den Ordner `/home/code/` öffnen
-- Die Anleitung zum Herunterladen eines Projektes findet sich unter **//TODO**
+- Die Anleitung zum Herunterladen eines Projektes findet sich [hier](#Projekt-herunterladen)
 
 ### Existierendes Projekt öffnen
 - Im [Ordner öffnen Dialog](#Ordner-öffnen) den Ordner `/home/code/[Name des Projekts]` öffnen
@@ -42,6 +42,18 @@
     - Man kann via Drag&Drop auch das Editorfenster vertikal **(7)** oder horinzontal teilen
 
 ## Hamster-Extension
+![Extension allgemein](Images/extension.png)
+- Allgemeine Extension Ansicht findet man unter **(1)**
+- Mit _Open Hamster GUI_ **(2)** kann man die [Hamster GUI](#SimpleHamsterGame-ausführen) öffnen. Diese öffnet sich auch automatisch, sobald man ein SimpleHamsterGame startet
+- Mit _Download Code from Artemis_ **(3)** kann man ein Projekt herunterladen (via git clonen), mehr dazu unter [Projekt herunterladen](#Projekt-herunterladen)
+- Mit _Save Code to Artemis_ **(4)** kann mein ein Projekt speichern
+    - Dies geht nur wenn das Projekt via **(3)** heruntergeladen wurde
+- Bei _StartableHamsterGames_ **(5)** findet sich eine Auflistung aller von Klassen, die ausgeführt werden können
+    - Durch einen Klick auf einen _Start [...]_ Eintrag kann die zugehörige main-Methode ausgeführt werden. Mehr dazu [hier](#SimpleHamsterGame-ausführen)
+    - Diese Auflistung ist nur sichtbar, falls ein Ordner mit einem Projekt geöffnet ist
+    - Welche main-Methoden ausgeführt werden können wird durch die Datei `config.json` festgelegt. Es reicht also nicht aus, weitere Klassen mit main-Methode dem Projekt hinzuzufügen
+- Unter _Controls_ finden sich verschiedene Optionen, ausgeführte SimpleHamsterGames zu steuern, mehr dazu bei [SimpleHamsterGame ausführen](#SimpleHamsterGame-ausführen)
 ### Projekt herunterladen
+//TODO
 ### Projekt speichern
 ### SimpleHamsterGame ausführen
