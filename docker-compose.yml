@@ -1,0 +1,6 @@
+services:
+  pandoc:
+    image: "pandoc/core:latest"
+    volumes:
+      - ./:/data
+    command: -s -f gfm doc.md -o doc.tex
