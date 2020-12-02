@@ -45,7 +45,7 @@
 ![Extension allgemein](Images/extension.png)
 - Allgemeine Extension Ansicht findet man unter **(1)**
 - Mit _Open Hamster GUI_ **(2)** kann man die [Hamster GUI](#SimpleHamsterGame-ausführen) öffnen. Diese öffnet sich auch automatisch, sobald man ein SimpleHamsterGame startet
-- Mit _Download Code from Artemis_ **(3)** kann man ein Projekt herunterladen (via git clonen), mehr dazu unter [Projekt herunterladen](#Projekt-herunterladen)
+- Mit _Download Code from Artemis_ **(3)** kann man ein Projekt herunterladen (via git clone), mehr dazu unter [Projekt herunterladen](#Projekt-herunterladen)
 - Mit _Save Code to Artemis_ **(4)** kann mein ein Projekt speichern
     - Dies geht nur wenn das Projekt via **(3)** heruntergeladen wurde
 - Bei _StartableHamsterGames_ **(5)** findet sich eine Auflistung aller von Klassen, die ausgeführt werden können
@@ -56,4 +56,23 @@
 ### Projekt herunterladen
 //TODO
 ### Projekt speichern
+//TODO
 ### SimpleHamsterGame ausführen
+![Extension: running](Images/extension_running.png)
+![Extension: paused](Images/extension_paused.png)
+- **(1)**: _Resume game_, setzt das game fort, nur möglich wenn game gerade pausiert ist
+    - Stellt automatisch alle rückgängig gemachten Schritte der Ausführung wieder her
+- **(2)**: _Pause game_, pausiert das game, nur möglich wenn das game gerade läuft
+- **(3)**: beendet das aktuelle game
+- **(4)**: _Undo_, macht einen Schritt der Ausführung rückgängig, nur möglich wenn das game gestoppt oder pausiert ist (und es noch einen Schritt zum rückgängigmachen gibt)
+- **(5)**: _Redo_, stellt einen Schritt der Ausführung wieder her, nur möglich wenn das game gestoppt oder pausiert ist (und es noch einen Schritt zum wiederherstellen gibt)
+- **(6)**: Geschwindigkeitsregler, je weiter rechts der Regler, desto schneller wird das game ausgeführt
+- **(7)**: _Kill all running games_, beendet alle aktuellen games
+    - Prinzipiell können mehr als ein game gleichzeitig ausgeführt werden, meistens ist dies jedoch nicht gewünscht. Dieser Button ist insbesondere deshalb nützlich, um noch vorhandene, aber nicht mehr erwünschte games zu beenden (die sonst die UI für neue games blockieren)
+- **(8)**: Hier wird das territory angezeigt
+- **(9)**: _Log_, beinhaltet alle Schritte der Ausführung eines games von oben nach unten in der Reihenfolge der Ausführung
+    - Mit einem Hamster assoziierte Schritte sind mit einem Hamster-Symbol der passenden Farbe versehen, um sie einem Hamster zuordnen zu können
+    - Macht man einen Schritt rückgängig - oder stellt diesen wieder her - sieht man dies auch am Log
+- **(10)**: Beenden button der java extension
+    - Hiermit kann das aktuell ausgeführt java Programm - was meistens das game ist - beendet werden
+    - Dieser Button verschwindet ab und an, ohne dass man etwas dagegen tun kann. In diesem Fall kann man **(3)** oder **(7)** verwenden um ein / alle games zu beenden
