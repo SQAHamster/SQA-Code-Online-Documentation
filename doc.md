@@ -17,7 +17,7 @@
 - Welcher Ordner zu öffnen ist folgt
 ### Neues Projekt herunterladen (clonen)
 - Im [Ordner öffnen Dialog](#Ordner-öffnen) den Ordner `/home/code/` öffnen
-- Die Anleitung zum Herunterladen eines Projektes findet sich [hier](#Projekt-herunterladen)
+- Die Anleitung zum Herunterladen eines Projektes findet sich [hier (siehe 3. Unterpunkt)](#Hamster-Extension)
 
 ### Existierendes Projekt öffnen
 - Im [Ordner öffnen Dialog](#Ordner-öffnen) den Ordner `/home/code/[Name des Projekts]` öffnen
@@ -47,7 +47,7 @@
 
 ## Hamster-Extension
 ![Extension allgemein](Images/extension.png)
-- Allgemeine Extension Ansicht findet man unter **(1)**
+- Allgemeine Extension Ansicht öffnet man bei **(1)**
 - Mit _Open Hamster GUI_ **(2)** kann man die [Hamster GUI](#SimpleHamsterGame-ausführen) öffnen. Diese öffnet sich auch automatisch, sobald man ein SimpleHamsterGame startet
 - Mit _Download Code from Artemis / GitHub_ **(3)** kann man ein Projekt herunterladen (via git clone), mehr dazu unter [Projekt herunterladen](#Projekt-herunterladen)
 - Mit _Save Code to Artemis_ **(4)** kann mein ein Projekt speichern
