@@ -28,6 +28,7 @@
 - Beim Öffnen eines Projekts werden möglicherweise mehrere zu wählende Einstellungen der Java Erweiterung angezeigt
 - _Enable Semantic highlighting for Java by default_ **(1)**: **Disable**
 - _... Java project setting files ..._ **(2)**: **Exclude globally**
+- Hinweis: diese Dialoge schließen sich nach ein paar Sekunden automatisch. Sollte man bei einem oder beiden Dialogen nichts ausgewählt haben, führt dies zu keinen weiteren Problem
 
 ## Projektansicht
 ![Projektansicht](Images/project_view.png)
