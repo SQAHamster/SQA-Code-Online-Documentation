@@ -34,7 +34,7 @@
 ![Geteiltes Editorfenster](Images/drag_drop.png)
 - Allgemeine Projekt Ansicht
 - Unter **(1)** findet man einen Dateiexplorer, dieser öffnet sich dann als **(2)**
-    - Ordner erkennt man an einem ">" Symbol (eingeklappter Ordner). Durch einen Mausklick kann man diese ein- / ausklappen
+    - Ordner **(3)** erkennt man an einem ">" Symbol (eingeklappter Ordner). Durch einen Mausklick kann man diese ein- / ausklappen
     - Dateien kann man mit einem Einfach- oder Doppelklick öffnen
         - Ein Doppelklick öffnet eine Datei permanent als Tab **(5)**, d.h. selbst wenn man eine andere Datei öffnet bleibt der Tab offen
         - Ein Einfachklick öffnet die Datei temporär als Tab, d.h. wenn man eine andere Datei öffnet schliest sich der Tab von selbst wieder (nützlich wenn man nur schnell mehrere Dateien überfliegen möchte, ohne am Ende 20 Tabs offen zu haben)
@@ -44,6 +44,8 @@
     - Mit "x" kann man den jeweiligen Tab schließen
     - Man kann via Drag&Drop auch das Editorfenster vertikal **(7)** oder horinzontal teilen  
     Alternativ findet man diese Funktion auch im Kontextmenü des Tabs, welches man mit einem Rechtsklick öffnet
+- Mit **(4)** öffnet man die Hamster-Extension Sidebar, in derm man u.a. den Hamster ausführen kann und ein Projekt herunterladen / speichern, mehr dazu [hier](#Hamster-Extension)
+- Befindet sich in einer geöffneten Datei eine `main`-Methode, wird über dieser "Run | Debug" angezeigt **(6)**. Mit "Run" kann man die jeweilige Main-Methode ausführen, was im oben gegebenen Beispiel das `TemplateHamsterGame` starten würde.
 
 ## Hamster-Extension
 ![Extension allgemein](Images/extension.png)
@@ -57,7 +59,7 @@
     - Durch einen Klick auf einen _Start [...]_ Eintrag kann die zugehörige main-Methode ausgeführt werden. Mehr dazu [hier](#SimpleHamsterGame-ausführen)
     - Diese Auflistung ist nur sichtbar, falls ein Ordner mit einem Projekt geöffnet ist
     - Welche main-Methoden ausgeführt werden können wird durch die Datei `config.json` festgelegt. Es reicht also nicht aus, weitere Klassen mit main-Methode dem Projekt hinzuzufügen
-- Unter _Controls_ finden sich verschiedene Optionen, ausgeführte SimpleHamsterGames zu steuern, mehr dazu bei [SimpleHamsterGame ausführen](#SimpleHamsterGame-ausführen)
+- Unter _Controls_ **(6)** finden sich verschiedene Optionen, ausgeführte SimpleHamsterGames zu steuern, mehr dazu bei [SimpleHamsterGame ausführen](#SimpleHamsterGame-ausführen)
 ### Projekt herunterladen
 ![Projekt herunterladen Dialog](Images/clone.png)
 - Nach einem Klick auf _Download Code from Artemis / GitHub_ öffnet sich ein Dialog **(1)**, in den man die URL eingeben muss
