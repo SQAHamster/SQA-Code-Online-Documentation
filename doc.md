@@ -54,8 +54,9 @@
 - Mit _Open Hamster GUI_ **(2)** kann man die [Hamster GUI](#SimpleHamsterGame-ausführen) öffnen. Diese öffnet sich auch automatisch, sobald man ein SimpleHamsterGame startet
 - Mit _Download Code from Artemis / GitHub_ **(3)** kann man ein Projekt herunterladen (via git clone), mehr dazu unter [Projekt herunterladen](#Projekt-herunterladen)
 - Mit _Save Code to Artemis_ **(4)** kann mein ein Projekt speichern
-    - Diese Funktion steht nur zur Verfügung, wenn das Projekt via **(3)** von **Artemis** heruntergeladen wurde
-    - In diesem Fall werden jegliche Änderungen nach Artemis gespeichert (und Tests ausgeführt, mehr dazu in der Artemis Erklärung)
+    - Diese Funktion steht aktuell leider noch nicht zur Verfügung. Um ein Projekt welches von Artemis heruntergeladen wurde zu speichern siehe [Artemis-Support](#Artemis)
+    - ~~Diese Funktion steht nur zur Verfügung, wenn das Projekt via **(3)** von **Artemis** heruntergeladen wurde~~
+    - ~~In diesem Fall werden jegliche Änderungen nach Artemis gespeichert (und Tests ausgeführt, mehr dazu in der Artemis Erklärung)~~
 - Bei _StartableHamsterGames_ **(5)** findet sich eine Auflistung aller von Klassen, die ausgeführt werden können
     - Durch einen Klick auf einen _Start [...]_ Eintrag kann die zugehörige main-Methode ausgeführt werden. Mehr dazu [hier](#SimpleHamsterGame-ausführen)
     - Diese Auflistung ist nur sichtbar, falls ein Ordner mit einem Projekt geöffnet ist
@@ -65,7 +66,7 @@
 ![Projekt herunterladen Dialog](Images/clone.png)
 - Nach einem Klick auf _Download Code from Artemis / GitHub_ öffnet sich ein Dialog **(1)**, in den man die URL eingeben muss
     - Für GitHub die URL des **öffentlichen** Repositories eingeben (z.B. https://github.com/SQA-PSE-WS2020/exercise-sheet-5) und mit Enter bestätigen, das Projekt wird automatisch heruntergeladen und geöffnet
-    - Für Artemis die URL des eigenen **privaten** Repositories eingeben und mit Enter bestätigen. Es öffnet sich ein neuer Tab, in dem man sich mit seinen Artemis Anmeldedaten anmelden muss.
+    - Für Artemis siehe [Artemis-Support](#Artemis)
 - Hinweis: es ist nicht möglich / sinnvoll ein Projekt in einem anderen Projekt zu speichern. Um ein Projekt herunterladen zu können, sollte deshalb der Ordner `/home/code/` geöffnet werden, siehe hierfür [Ordner öffnen](#Ordner-öffnen)
 ### SimpleHamsterGame ausführen
 ![Extension: running](Images/extension_running.png)
@@ -86,3 +87,47 @@
 - **(10)**: Beenden button der java extension
     - Hiermit kann das aktuell ausgeführt java Programm - was meistens das game ist - beendet werden
     - Dieser Button verschwindet ab und an, ohne dass man etwas dagegen tun kann. In diesem Fall kann man **(3)** oder **(7)** verwenden um ein / alle games zu beenden
+
+## Artemis
+> Hinweis: in Zukunft sollen diese Funktionen auch von der Hamster-Extension übernommen werden
+
+### Herunterladen (clone)
+
+![Clone 1](Artemis/clone_1.png)
+
+1. Die Command Palette unter _Menü_ **(1)** -> _View_ **(2)** -> _Command Palette..._ **(3)** öffnen
+
+![Clone 2](Artemis/clone_2.png)
+
+2. ">Git:Clone" bei **(4)** eingeben und mit Enter bestätigen
+
+![Clone 3](Artemis/clone_3.png)
+
+3. Bei **(5)** die Artemis Clone URL eingeben und mit enter bestätigen
+
+![Clone 4](Artemis/clone_4.png)
+
+4. Bei **(6)** den Order `/home/code` auswählen und mit Enter bestätigen
+
+![Clone 5](Artemis/clone_5.png)
+
+5. Bei **(7)** das Artemis-Passwort eingeben und mit Enter bestätigen
+
+![Clone 6](Artemis/clone_6.png)
+
+6. _Open_ **(8)** auswählen
+
+### Speichern (commit und push)
+![Commit 1](Artemis/commit_1.png)
+
+1. Die _Source Control_ sidebar mit **(1)** öffnen
+2. Alle Änderungen mittels **(2)** stagen
+
+![Commit 2](Artemis/commit_2.png)
+
+3. Bei **(3)** eine commit message eingeben und mit **(4)** bestätigen
+
+![Commit 1](Artemis/push.png)
+
+4. Im Menü **(5)** _Push_ **(6)** auswählen  
+   Die Änderungen sollten nun auf Artemis sein
