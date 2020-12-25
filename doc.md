@@ -126,8 +126,21 @@
 ![Commit 2](Artemis/commit_2.png)
 
 3. Bei **(3)** eine commit message eingeben und mit **(4)** bestätigen
+    - Sollte der Fehler _Make sure you configure your 'user.name' and 'user.email' in git._ auftreten siehe [Git konfigurieren](#Git-konfigurieren)
 
 ![Commit 1](Artemis/push.png)
 
 4. Im Menü **(5)** _Push_ **(6)** auswählen  
    Die Änderungen sollten nun auf Artemis sein
+
+### Git konfigurieren
+![Git config 1](Artemis/config_1.png)
+
+1. Ein Terminal unter _Menü_ **(1)** -> _Terminal_ **(2)** -> _New Terminal_ **(3)** öffnen
+
+![Git config 2](Artemis/config_2.png)
+
+2. Ein Terminal **(4)** öffnet sich  
+   Folgende commands eingeben und mit Enter bestätigen
+    - `git config --global user.name "Dein Name"`
+    - `git config --global user.email "Deine Email"`
